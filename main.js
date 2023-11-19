@@ -67,7 +67,7 @@ for (let i = 0; i < newList.length - 1; i++) {
 //Print the sorted list
 //console.log(newList);
 
-// Prints the largest integer in the list sorted list
+// Prints the largest integer in the sorted array
 console.log(Math.max(...newList));
 
 // Sum the last 3 integers in the soted array
