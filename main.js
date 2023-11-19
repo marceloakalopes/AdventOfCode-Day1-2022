@@ -39,14 +39,14 @@ const sumArr = (arr) => {
 };
 
 // List of lists
-const elfs = finalList;
+const elves = finalList;
 
 // List of summed lists
 const newList = [];
 
-// Interact over the "elfs" list and sum every list
-for (let i = 0; i < elfs.length; i++) {
-    newList.push(sumArr(elfs[i]));
+// Interact over the "elves" list and sum every list
+for (let i = 0; i < elves.length; i++) {
+    newList.push(sumArr(elves[i]));
 };
 
 // Check if a list of sums was created
@@ -71,6 +71,6 @@ for (let i = 0; i < newList.length - 1; i++) {
 console.log(Math.max(...newList));
 
 // Sum the last 3 integers in the soted array
-console.log(`The sum of the top 3 elfs carryng the most calories: ${newList[newList.length - 1] + newList[newList.length - 2] + newList[newList.length - 3]} `)
+console.log(`The sum of the top 3 elves carryng the most calories: ${newList[newList.length - 1] + newList[newList.length - 2] + newList[newList.length - 3]} `)
 
 module.exports = sumArr
