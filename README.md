@@ -1,5 +1,5 @@
 # Advent do Code -  Day 1, 2022 🎄
-Solution in JavaScript. Using 76 lines of code, and with a total runtime of 0.53 seconds.
+Solution in JavaScript. Using 76 lines of code, and with a total runtime of `0.53` seconds.
 
 It was a really fun challenge that made me revisit the NodeJS 'fs' module.
 
